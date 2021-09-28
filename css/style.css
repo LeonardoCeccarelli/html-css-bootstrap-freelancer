@@ -5,6 +5,24 @@ a {
     cursor: pointer;
 }
 
+nav i {
+    cursor: pointer;
+}
+
+/* Linea di separazione */
+.separation_line_white {
+    width: 15%;
+    background-color: white;
+    height: 3px;
+}
+
+.separation_line_black {
+    width: 15%;
+    background-color: rgb(44, 62, 80);
+    height: 3px;
+}
+
+/* Colori sfondo e testo */
 .bg_black {
     background-color: rgb(44, 62, 80);
 }

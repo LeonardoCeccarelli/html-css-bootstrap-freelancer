@@ -5,7 +5,7 @@ a {
     cursor: pointer;
 }
 
-nav i {
+nav, footer i {
     cursor: pointer;
 }
 
@@ -24,6 +24,24 @@ nav i {
 
 .short_line {
     width: 8%;
+}
+
+/* Icone circolari */
+.circle {
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+footer .circle a {
+    display: table-cell;
+    vertical-align: top;
+    text-align: center;
+    width: 26px;
+}
+
+footer .circle a i {
+    font-size: 10px;
+    line-height: 24px;
 }
 
 /* Form */
@@ -52,7 +70,19 @@ nav i {
     background-color: rgb(26, 188, 156);
 }
 
+.c_green {
+    color: rgb(26, 188, 156);
+}
+
 .bg_darkgrey {
     background-color: #3a546d;
+}
+
+.small {
+    font-size: 10px;
+}
+
+.small i {
+    font-size: 8px;
 }
 

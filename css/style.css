@@ -1,0 +1,19 @@
+/* *****Classi layout***** */
+
+/* *****Classi utilities***** */
+a {
+    cursor: pointer;
+}
+
+.bg_black {
+    background-color: rgb(44, 62, 80);
+}
+
+.bg_green {
+    background-color: rgb(26, 188, 156);
+}
+
+.bg_darkgrey {
+    background-color: #3a546d;
+}
+

@@ -22,6 +22,10 @@ nav i {
     height: 3px;
 }
 
+.short_line {
+    width: 8%;
+}
+
 /* Colori sfondo e testo */
 .bg_black {
     background-color: rgb(44, 62, 80);

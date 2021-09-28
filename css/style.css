@@ -26,6 +26,19 @@ nav i {
     width: 8%;
 }
 
+/* Form */
+.set_input_tag {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+
+.form-control:focus {
+    border-color: #ced4da;
+    box-shadow: none;
+}
+
 /* Colori sfondo e testo */
 .bg_black {
     background-color: rgb(44, 62, 80);

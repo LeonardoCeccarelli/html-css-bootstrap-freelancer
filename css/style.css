@@ -9,6 +9,14 @@ nav, footer i {
     cursor: pointer;
 }
 
+.list-inline-item:not(:first-child) {
+    padding: 0 4px;
+}
+
+footer .bg_darkgrey .row {
+    font-size: .8rem;
+}
+
 /* Linea di separazione */
 .separation_line_white {
     width: 15%;

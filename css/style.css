@@ -34,22 +34,38 @@ footer .bg_darkgrey .row {
     width: 8%;
 }
 
-/* Icone circolari */
+/* Icone circolari e effetto :hover*/
 .circle {
-    border: 1px solid white;
-    border-radius: 50%;
+    text-decoration: none;
+    padding: 0 2px !important;
 }
 
 footer .circle a {
-    display: table-cell;
-    vertical-align: top;
-    text-align: center;
-    width: 26px;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7px;
+    border: 1px solid white;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
 }
 
-footer .circle a i {
-    font-size: 10px;
-    line-height: 24px;
+.icon_facebook:hover {
+    background-color: #3b5998;
+}
+
+.icon_google:hover {
+    background-image: linear-gradient(red, yellow, green, blue);
+}
+
+.icon_twitter:hover {
+    background-color: #1da1f2;
+}
+
+.icon_linkedin:hover {
+    background-color: #0077b5;
 }
 
 /* Form */

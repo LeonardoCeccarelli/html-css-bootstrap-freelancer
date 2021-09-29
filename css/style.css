@@ -17,7 +17,7 @@ footer .bg_darkgrey .row {
     font-size: .8rem;
 }
 
-/* Linea di separazione */
+/* Linea di separazione con stella */
 .separation_line_white {
     width: 15%;
     background-color: white;
@@ -67,6 +67,45 @@ footer .circle a {
 .icon_linkedin:hover {
     background-color: #0077b5;
 }
+
+/* Immagini con effetto hover e overlay */
+.img_card {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    font-size: small;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding-top: 250px;
+    display: none;
+    transition: background-color 2s;
+}
+
+.img_card:hover .overlay {
+    display: initial;
+    padding-top: 10px;
+}
+
+/* .image_container img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+} */
 
 /* Form */
 .set_input_tag {
